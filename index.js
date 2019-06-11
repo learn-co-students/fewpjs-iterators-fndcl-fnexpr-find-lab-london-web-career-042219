@@ -1,5 +1,13 @@
-const testVar = {}
+const testVar = {};
 
 function testFunc() {
-  return "hi"
+  return "hi";
+}
+
+function superbowlWin(arrayOfObjects) {
+  if (arrayOfObjects.find(object => object.result === "W") === undefined) {
+    return undefined;
+  } else {
+    return arrayOfObjects.find(object => object.result === "W").year;
+  }
 }
