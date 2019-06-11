@@ -1,5 +1,7 @@
-const testVar = {}
+const testVar = {};
 
 function testFunc() {
-  return "hi"
+  return "hi";
 }
+
+record.find(x => x.result === "W");
